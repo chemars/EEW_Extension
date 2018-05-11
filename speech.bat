@@ -10,4 +10,4 @@ IF %1 == 5 SET "text=強震警報，預估震度%1級，%sec%秒後抵達"
 IF %1 == 6 SET "text=強震警報，預估震度%1級，%sec%秒後抵達"
 IF %1 == 7 SET "text=強震警報，預估震度%1級，%sec%秒後抵達"
 
-PowerShell -WindowStyle Hidden -Command "Add-Type –AssemblyName System.Speech; (New-Object System.Speech.Synthesis.SpeechSynthesizer).Speak('%text%');"
+PowerShell -WindowStyle Hidden -Command "Add-Type -AssemblyName System.Speech; (New-Object System.Speech.Synthesis.SpeechSynthesizer).Speak('%text%');"
