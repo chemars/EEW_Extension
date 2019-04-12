@@ -1,5 +1,5 @@
 # 地震速報連動程式
-配合地牛Wake Up! http://eew.earthquake.tw
+配合地牛Wake Up! Windows版 http://eew.earthquake.tw
 
 ## 說明
 地牛Wake Up! v2.0.0新增了連動功能，可以在收到地震速報後執行指定程式，以下是一些應用，在右上角設定圖示>其他>連動設定，啟用並選擇就能使用（點擊`測試`可確認是否正常執行）。
