@@ -1,5 +1,5 @@
 @ECHO OFF
-SET /A "sec=%2-5"
+SET /A "sec=%2-4"
 IF %sec% LSS 0 SET "sec=0"
 IF %1 == 0 SET "text=地震速報，預估震度%1級，%sec%秒後抵達"
 IF %1 == 1 SET "text=地震速報，預估震度%1級，%sec%秒後抵達"
